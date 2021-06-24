@@ -14,6 +14,8 @@ div#wrap{
 
 main#main{
     background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 24px;
 }
 
 /* main#main */
@@ -70,7 +72,7 @@ main#main{
 
 /* main#main */
 
-div#contents, div#signboard{
+div#bbs, div#signboard{
     background-color: #fff;
 }
 
@@ -79,24 +81,132 @@ div#contents, div#signboard{
 div#slide{
     margin-top: 16px;
     padding: 10px 0 31px;
-    border: 1px solid #f80;
+    /*border: 1px solid #f80;*/
 }
 
-#main #shuttleFrame{
-    border: 1px solid #f88;
+#main div.arrowArea{
+    /*border: 1px solid #88f;*/
+    padding: 10px;
+    margin: 0 10px;
+
+    line-height: 265px;
+}
+
+#main div#shuttleFrame{
+    /*border: 1px solid #f88;*/
     -webkit-flex: 1;
     -moz-flex: 1;
     -ms-flex: 1;
     -o-flex: 1;
     flex: 1;
+
+    justify-content: space-between;
 }
 
-#main div.arrowArea{
-    border: 1px solid #88f;
-    padding: 10px;
-    margin: 0 10px;
+#main #shuttleFrame .slideItem{
+    border: 1px solid #ccc;
+}
+
+#main #shuttleFrame div.forestInfo{
+    padding: 16px;
+}
+
+#main .forestInfo h3{
+    color: #197e46;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#main .forestInfo address{
+    font-style: normal;
+    font-weight: bold;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+#main .forestInfo hr {
+    border: none;
+    border-top: 1px dotted #eee;
+    margin-bottom: 6px;
+}
+
+#main .forestInfo ul {
+    /*
+    border: 1px solid #f00;
+    list-style: disc;
+    list-style-position: inside;
+    */
+}
+
+#main .forestInfo li{
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    /*border: 1px solid #08f;*/
 }
 
 /* div#slide */
+
+/* div#contents */
+
+div#contents{
+    border: 1px solid #000;
+}
+
+div#bbs, div#signboard{
+    border: 1px solid #000;
+}
+
+#contents #bbs{
+    border: 1px solid #08f;
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* div#signboard */
+
+#contents #signboard{
+    padding: 34px;
+    width: 450px;
+    /*border: 1px solid #08f;*/
+}
+
+#contents #signboard h2{
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#contents #sighboardHeader{
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /*border: 1px solid #f00;*/
+}
+
+#contents #signboard #controlArea{
+    width: 100px;
+    /*border: 1px solid #000;*/
+}
+
+#contents #controlArea span{
+    text-align: center;
+    /*border: 1px solid #f80;*/
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#contents div#boardImgArea{
+    border: 1px solid #000;
+}
+
+
+
+/* div#signboard */
 
 /* div#contents */

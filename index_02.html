@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>국립자연휴양림에 오신 걸 환영합니다.</title>
     <link rel="stylesheet" href="style/style02.css">
 </head>
+
 <body>
     <div id="wrap">
         <main id="main">
@@ -14,7 +16,7 @@
             </header> <!-- header#header -->
 
             <nav id="gnb">
-               <ul id="mainMenu" class="flexContainer">
+                <ul id="mainMenu" class="flexContainer">
                     <li class="mainLi"><a href="#" class="selected">서울/경기</a></li>
                     <li class="mainLi"><a href="#">강원</a></li>
                     <li class="mainLi"><a href="#">충북</a></li>
@@ -23,7 +25,7 @@
                     <li class="mainLi"><a href="#">전남</a></li>
                     <li class="mainLi"><a href="#">경북</a></li>
                     <li class="mainLi"><a href="#">경남</a></li>
-               </ul>
+                </ul>
 
             </nav> <!-- nav#gnb -->
 
@@ -31,23 +33,122 @@
                 <div id="leftArrow" class="arrowArea">
                     <img src="images/prev_img.png" alt="이전이미지">
                 </div> <!-- div#leftArrow 왼쪽 화살표 -->
-                <div id="shuttleFrame">
+                <div id="shuttleFrame" class="flexContainer">
+
+                    <div class="slideItem">
+                        <div class="itemImgArea">
+                            <img src="images/gallery_01.jpg" alt="셔틀프레임이미지01">
+                        </div> <!-- div#itemImgArea -->
+
+                        <div class="forestInfo">
+                            <h3>
+                                유명산 자연휴양림<img src="images/home.png" alt="홈아이콘이미지">
+                            </h3>
+
+                            <address>경기 가평군 설악면 유명산길 79-53</address>
+                            <hr>
+                            <ul>
+                                <li>ㆍ이용문의 : 031-589-5487</li>
+                            </ul>
+                        </div> <!-- div.forestInfo -->
+
+                    </div> <!-- div.slideItem  -->
+
+                    <div class="slideItem">
+                        <div class="itemImgArea">
+                            <img src="images/gallery_02.jpg" alt="셔틀프레임이미지02">
+                        </div> <!-- div#itemImgArea -->
+
+                        <div class="forestInfo">
+                            <h3>
+                                산음 자연휴양림<img src="images/home.png" alt="홈아이콘이미지">
+                            </h3>
+
+                            <address>경기도 양평군 단월면 고북길 347</address>
+                            <hr>
+                            <ul>
+                                <li>ㆍ이용문의 : 031-744-8133</li>
+                            </ul>
+                        </div> <!-- div.forestInfo -->
+                    </div>
+
+                    <div class="slideItem">
+                        <div class="itemImgArea">
+                            <img src="images/gallery_03.jpg" alt="셔틀프레임이미지03">
+                        </div> <!-- div#itemImgArea -->
+
+                        <div class="forestInfo">
+                            <h3>
+                                아세안 자연휴양림<img src="images/home.png" alt="홈아이콘이미지">
+                            </h3>
+
+                            <address>경기도 양주시 백석읍 기산로 472</address>
+                            <hr>
+                            <ul>
+                                <li>ㆍ이용문의 : 031-871-2796</li>
+                            </ul>
+                        </div> <!-- div.forestInfo -->
+                    </div>
+
+                    <div class="slideItem">
+                        <div class="itemImgArea">
+                            <img src="images/gallery_04.jpg" alt="셔틀프레임이미지04">
+                        </div> <!-- div#itemImgArea -->
+
+                        <div class="forestInfo">
+                            <h3>
+                                중미산 자연휴양림<img src="images/home.png" alt="홈아이콘이미지">
+                            </h3>
+
+                            <address>경기도 양평군 옥천면 중미산로 1152</address>
+                            <hr>
+                            <ul>
+                                <li>ㆍ이용문의 : 031-771-7166</li>
+                            </ul>
+                        </div> <!-- div.forestInfo -->
+                    </div>
+
 
                 </div> <!-- div#shuttleFrame 슬라이드쇼 내용 -->
+
                 <div id="rightArrow" class="arrowArea">
                     <img src="images/next_img.png" alt="다음이미지">
                 </div> <!-- div#rightArrow 오른쪽 화살표 -->
+
             </div> <!-- div#slide -->
 
         </main> <!-- main#main -->
 
-        <div id="contents">
+        <div id="contents" class="flexContainer">
 
             <div id="bbs">
+                sayhello
 
             </div> <!-- div#bbs 공지사항/보도자료 -->
 
             <div id="signboard">
+
+                <div id="sighboardHeader" class="flexContainer">
+                    <h3>알림판</h3>
+                    <div id="controlArea" class="flexContainer">
+                        <span>
+                            <img src="images/control_left.png" alt="이전알림보기">
+                        </span>
+                        <span>
+                            <img src="images/control_pause.png" alt="일시정지">
+                        </span>
+                        <span>
+                            <img src="images/control_right.png" alt="다음알림보기">
+                        </span>
+                        <span>
+                            <img src="images/control_list.png" alt="알림목록보기">
+                        </span>
+                    </div> <!-- div#controlArea -->
+                </div> <!-- div#sighboardHeader -->
+                <div id="boardImgArea">
+                    <img src="images/notice_01.jpg" alt="알림판이미지">
+                </div>
+
 
             </div> <!-- div#signboard 알림판 -->
 
@@ -55,5 +156,4 @@
 
 
     </div> <!-- div#wrap -->
-</body>
-</html>
+</body></html>
