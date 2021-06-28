@@ -10,12 +10,15 @@ div#wrap{
     margin: 0 auto;
 }
 
+#main,#bbs,#signboard{
+    border-radius: 10px;
+}
+
 /* main#main */
 
 main#main{
     background-color: #fff;
-    border-radius: 10px;
-    margin-bottom: 24px;
+    margin-bottom: 23px;
 }
 
 /* main#main */
@@ -151,23 +154,25 @@ div#slide{
 /* div#contents */
 
 div#contents{
-    border: 1px solid #000;
+   /* border: 1px solid #f00;*/
+
 }
 
 div#bbs, div#signboard{
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 
 /* div#bbs */
 
 #contents #bbs{
-    border: 1px solid #08f;
+    /*border: 1px solid #08f;*/
     flex: 1;
     margin-right: 20px;
     padding: 5px 30px;
 }
 
 /* div#tabBtnArea */
+
 
 #contents #bbs button{
     color: #555;
@@ -184,6 +189,7 @@ div#bbs, div#signboard{
     border-bottom: 4px solid #f00;
     margin-right: 8px;
 }
+
 #contents #tabBtnArea{
     border-bottom: 2px solid #aaa;
     justify-content: space-between
@@ -211,11 +217,37 @@ div#bbs, div#signboard{
 
 /* div#tabBtnArea */
 
-/* div#tabContents */
+/* div# tabContents */
+
+#contents div#tabContents{
+    /*border: 1px solid #f88;*/
+    margin: 20px 0;
+    height: 240px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#contents #bbs{
+    padding: 10px 16px 0;
+    /*border: 1px solid #000;*/
+
+    margin-right: 20px;
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
 
 #contents #bbs table{
-    width: 400px;
-    border: 1px solid #000;
+    width: 416px;
+    /*border: 1px solid #000;*/
+    margin-bottom: 10px;
+}
+
+#contents #bbs table td.date{
+    padding-right: 10px;
 }
 
 #contents #bbs table td.date div{
